@@ -17,5 +17,10 @@ public class Car
     {
         Console.WriteLine($"Make: {_make}\nModel: {_model}\nYear: {_year}");
     }
+
+    public void Drive()
+    {
+        Console.WriteLine($"{_make} {_model} is driving!");
+    }
     
 }
